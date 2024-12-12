@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tablet.css">
+    <link rel="stylesheet" href="css/movil.css">
+    <script src='https://kit.fontawesome.com/66c3e37d5e.js' crossorigin='anonymous'></script>
+    <script src='https://code.jquery.com/jquery-3.7.1.min.js'></script>
+    <script src="responsiveslides.min.js"></script>
+    <link rel="stylesheet" href="fancybox.css">
+    <link rel="stylesheet" href="carrousel.css">
+    <link rel="stylesheet" href="animate.css">
+    <script src="wow.min.js"></script>
+    <script src="fancybox.js"></script>
+
+    <title>Salon de Belleza</title>
+</head>
+<body>
+    <div>
+        <a href="#inicio" id="flecha"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+    <header class="ancho" id="inicio">
+        <div class="logo">
+                <a href="#" id="movil"><i class='fa-solid fa-bars'></i></a>
+                <div class="logos">
+                    <figure>
+                        <img src="imagenes/logo.png" alt="texto de la imagen">
+                    </figure>
+                    <div class="nom">
+                        <div class="nombre"><h2 class="beu">beauty</h2><h2 class="sal">salon</h2></div>
+                        <h4 class="subtit">and healt care website</h4>
+                    </div>
+                </div>
+        </div>
+        <nav>
+            <ul id="menu">
+                <li class="home"><a href="#" class="home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#products">PRODUCTS & GIFTS</a></li>
+                <li><a href="#news">NEWS & TIPS</a></li>
+            </ul>
+            <a href="#" class="shop"><i class="fa-solid fa-cart-shopping"></i></a>
+        </nav>
+    </header>
+    <section class="contenedor-slide">
+        <ul class="rslides">
+            <li><img src="imagenes/slide1.jpg" alt=""></li>
+            <li><img src="imagenes/slide2.jpg" alt=""></li>
+            <li><img src="imagenes/slide3.jpg" alt=""></li>
+        </ul>
+        <div class="contenedor_info">
+            <h2 class="let">Let Us Offer You</h2>
+            <br><br>
+            <h3 class="the">The Best Beauty Services</h3>
+            <br>
+            <p class="parr">We specialize at high-quality beauty services that range from skin care to hair coloring and styling. Our stylists will be glad to provide you with an amazing look.</p>
+            <br><br>
+            <div id="boton"><a href="#" class="btn_modal" id="boton_modal">BOOK AN APPOINTMENT</a></div>
+        </div>
+        
+    </section>
+    <!--Modal-->
+    <section id="modal" class="fondomodal">
+        <div class="contenidomodal">
+          <div class="alineacion_cerrar">
+            <i id="cerrar_modal" class="cerrarmodal fas fa-times-circle"></i>
+          </div>
+          <article class="appoint">
+            <h1>Book an appointment</h1>
+            <br>
+            <form>
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required>
+                <div class="error" id="nameError"></div>
+        
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" required>
+                <div class="error" id="emailError"></div>
+        
+                <label for="date">Date</label>
+                <input type="date" id="date" name="date" required>
+                <div class="error" id="dateError"></div>
+        
+                <label for="time">Time</label>
+                <input type="time" id="time" name="time" required>
+                <div class="error" id="timeError"></div>
+            </form>
+            <br>
+            <a href="#" class="button">BOOK NOW</a>
+            <br><br>
+          </article>    
+        </div>
+      </section>
+      <br>
+    <section class="clients ancho" id="services">
+        <h4 class="subtitulo">For Our Clients</h4>
+        <h3 class="titulo">Our Services</h3>
+        <br><br>
+        <div class="services">
+            <article class="wow animate__animated animate__fadeInLeft animate__delay-1s">
+                <i class="fa-solid fa-spa"></i>
+                <h2>Full Body Massage</h2>
+                <div class="linea"></div>
+            </article>
+            <article class="wow animate__animated animate__fadeInLeft">
+                <i class="fa-solid fa-spray-can-sparkles"></i>
+                <h2>Aromatherapy Treatment</h2>
+                <div class="linea"></div>
+            </article>
+            <article class="wow animate__animated animate__fadeInRight">
+                <i class="fa-solid fa-mortar-pestle"></i>
+                <h2>Facial Care</h2>
+                <div class="linea"></div>
+            </article>
+            <article class="wow animate__animated animate__fadeInRight animate__delay-1s">
+                <i class="fas fa-pencil-alt"></i>
+                <h2>Make-up Applications</h2>
+                <div class="linea"></div>
+            </article>
+        </div>
+        <a href="#" class="botonrosa">VIEW ALL SERVICES</a>
+        <hr>
+    </section>
+    <section class="ours ancho" id="about">
+        <h1 class="titulo">About Us</h1>
+        <div class="about">
+            <article class="video-instalaciones">
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/DtzsjiJoJa0?si=7Llbu_czl-y5u5gZ&amp;start=8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </article>
+            <div class="our">
+                <div class="filtro"></div>
+                <h1 class="titour">A Few Words About Us</h1>
+                <p class="parra1">Passion, experience and a fierce commitment to education are the cornerstones of our success in the beauty industry.</p>
+                <p class="parra2">Our highly trained service providers are more than just stylists, but they embrace an artistic approach to every client they meet with. The moment you step into our salon, you are engulfed in the ivory, green, and gold tones that encompass the area of the Beauty Salon.</p>
+                <a href="#" class="btn-learn">LEARN MORE</a>
+            </div>
+        </div>
+    </section>
+    <br>
+    <section class="contenedor_fotos ancho">
+        <a href="imagenes/galeria1.jpg" data-fancybox="gallery" data-caption="Fotografia 1">
+            <figure class="fotos">
+                <img src="imagenes/galeria1.jpg" alt="">
+                <div class="infog">
+                    <i class='fa-brands fa-instagram'></i>
+                    <div class="like">
+                        <div><i class="fa-solid fa-heart"></i>15</div>
+                        <div><i class="fa-solid fa-comment"></i>3</div>
+                    </div>
+                </div>
+            </figure>
+        </a>
+        <a href="imagenes/new3.jpg" data-fancybox="gallery" data-caption="Fotografia 2">
+            <figure class="fotos">
+                <img src="imagenes/new3.jpg" alt="">
+                <div class="infog">
+                    <i class='fa-brands fa-instagram'></i>
+                    <div class="like">
+                        <div><i class="fa-solid fa-heart"></i>15</div>
+                        <div><i class="fa-solid fa-comment"></i>3</div>
+                    </div>
+                </div>
+            </figure >
+        </a>
+        <a href="imagenes/galeria3.jpg" data-fancybox="gallery" data-caption="Fotografia 3">
+            <figure class="fotos">
+                <img src="imagenes/galeria3.jpg" alt="">
+                <div class="infog">
+                    <i class='fa-brands fa-instagram'></i>
+                    <div class="like">
+                        <div><i class="fa-solid fa-heart"></i>15</div>
+                        <div><i class="fa-solid fa-comment"></i>3</div>
+                    </div>
+                </div>
+            </figure>
+        </a>
+        <a href="imagenes/galeria4.jpg" data-fancybox="gallery" data-caption="Fotografia 4">
+            <figure class="fotos">
+                <img src="imagenes/galeria4.jpg" alt="">
+                <div class="infog">
+                    <i class='fa-brands fa-instagram'></i>
+                    <div class="like">
+                        <div><i class="fa-solid fa-heart"></i>15</div>
+                        <div><i class="fa-solid fa-comment"></i>3</div>
+                    </div>
+                </div>
+            </figure>
+        </a>
+        <a href="imagenes/galeria5.jpg" data-fancybox="gallery" data-caption="Fotografia 5">
+            <figure class="fotos">
+                <img src="imagenes/galeria5.jpg" alt="">
+                <div class="infog">
+                    <i class='fa-brands fa-instagram'></i>
+                    <div class="like">
+                        <div><i class="fa-solid fa-heart"></i>15</div>
+                        <div><i class="fa-solid fa-comment"></i>3</div>
+                    </div>
+                </div>
+            </figure>
+        </a>
+        <a href="imagenes/galeria6.jpg" data-fancybox="gallery" data-caption="Fotografia 6">
+            <figure class="fotos">
+                <img src="imagenes/galeria6.jpg" alt="">
+                <div class="infog">
+                    <i class='fa-brands fa-instagram'></i>
+                    <div class="like">
+                        <div><i class="fa-solid fa-heart"></i>15</div>
+                        <div><i class="fa-solid fa-comment"></i>3</div>
+                    </div>
+                </div>
+            </figure>
+        </a>
+    </section>
+    <br><br>
+    <section class="store" id="products">
+        <h4 class="subtitulo">Our Store</h4>
+        <h3 class="titulo">Products & Gifts</h3>
+        <br><br>
+        <div class=" tab">
+            <ul class="tabs">
+                <li><a href="#tab1">Popular Products</a></li>
+                <li><a href="#tab2">Specials</a></li>
+                <li><a href="#tab3">Gift Certificates</a></li>
+            </ul>
+            <div class="tab-container">
+                <div class="tab-content" id="tab1">
+                    <article>
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <br>
+                        <figure>
+                            <img src="imagenes/catalog-1.png" alt="texto de la imagen">
+                        </figure>
+                        <h5 class="nombrep">Avalon Organics Shampoo</h5>
+                        <h3 class="precio">$49.00</h3>
+                        <a href="#" class="btn-ama">ADD TO CART</a>
+                    </article>
+                    <article>
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <br>
+                        <figure>
+                            <img src="imagenes/catalog-2.png" alt="texto de la imagen">
+                        </figure>
+                        <h5 class="nombrep">Vitamin C Anti Serum</h5>
+                        <h3 class="precio">$35.00</h3>
+                        <a href="#" class="btn-ama">ADD TO CART</a>
+                    </article>
+                    <article>
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <br>
+                        <figure>
+                            <img src="imagenes/catalog-3.png" alt="texto de la imagen">
+                        </figure>
+                        <h5 class="nombrep">Babyganics Hand Sanitizer</h5>
+                        <h3 class="precio">$49.00</h3>
+                        <a href="#" class="btn-ama">ADD TO CART</a>
+                    </article>
+                    <article>
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <br>
+                        <figure>
+                            <img src="imagenes/catalog-4.png" alt="texto de la imagen">
+                        </figure>
+                        <h5 class="nombrep">Coconoil Organic Oil</h5>
+                        <h3 class="precio">$35.00</h3>
+                        <a href="#" class="btn-ama">ADD TO CART</a>
+                    </article>
+                    <article>
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <br>
+                        <figure>
+                            <img src="imagenes/catalog-5.png" alt="texto de la imagen">
+                        </figure>
+                        <h5 class="nombrep">Ecco Bella Liquid SPF</h5>
+                        <h3 class="precio">$49.00</h3>
+                        <a href="#" class="btn-ama">ADD TO CART</a>
+                    </article>
+                </div>
+                <div class="tab-content" id="tab2">
+                    <article>
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <br>
+                        <figure>
+                            <img src="imagenes/catalog-6.png" alt="texto de la imagen">
+                        </figure>
+                        <h5 class="nombrep">JASON Kids Shampoo</h5>
+                        <h3 class="precio">$35.00</h3>
+                        <a href="#" class="btn-ama">ADD TO CART</a>
+                    </article>
+                    <article>
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <br>
+                        <figure>
+                            <img src="imagenes/catalog-2.png" alt="texto de la imagen">
+                        </figure>
+                        <h5 class="nombrep">Vitamin C Anti-Aging Serum</h5>
+                        <h3 class="precio">$35.00</h3>
+                        <a href="#" class="btn-ama">ADD TO CART</a>
+                    </article>
+                    <article>
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <br>
+                        <figure>
+                            <img src="imagenes/catalog-7.png" alt="texto de la imagen">
+                        </figure>
+                        <h5 class="nombrep">Organic Natural Akin Care Oil </h5>
+                        <h3 class="precio">$49.00</h3>
+                        <a href="#" class="btn-ama">ADD TO CART</a>
+                    </article>
+                    <article>
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <br>
+                        <figure>
+                            <img src="imagenes/catalog-4.png" alt="texto de la imagen">
+                        </figure>
+                        <h5 class="nombrep">Coconoil Organic Oil</h5>
+                        <h3 class="precio">$35.00</h3>
+                        <a href="#" class="btn-ama">ADD TO CART</a>
+                    </article>
+                    <article>
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <br>
+                        <figure>
+                            <img src="imagenes/catalog-8.png" alt="texto de la imagen">
+                        </figure>
+                        <h5 class="nombrep">Eminence Dermafoliant</h5>
+                        <h3 class="precio">$35.00</h3>
+                        <a href="#" class="btn-ama">ADD TO CART</a>
+                    </article>
+                </div>
+                <div class="tab-content" id="tab3">
+                    <article>
+                        <figure>
+                            <img src="imagenes/cart-1.png" alt="texto de la imagen">
+                        </figure>
+                        <h5 class="nombrep">100$ Certificate</h5>
+                        <h3 class="precio">$100.00</h3>
+                        <a href="#" class="btn-rosa">ADD TO CART</a>
+                    </article>
+                    <article>
+                        <figure>
+                            <img src="imagenes/cart-2.png" alt="texto de la imagen">
+                        </figure>
+                        <h5 class="nombrep">200$ Certificate</h5>
+                        <h3 class="precio">$190.00</h3>
+                        <a href="#" class="btn-rosa">ADD TO CART</a>
+                    </article>
+                    <article>
+                        <figure>
+                            <img src="imagenes/cart-3.png" alt="texto de la imagen">
+                        </figure>
+                        <h5 class="nombrep">300$ Certificate</h5>
+                        <h3 class="precio">$275.00</h3>
+                        <a href="#" class="btn-rosa">ADD TO CART</a>
+                    </article>
+                    <article>
+                        <figure>
+                            <img src="imagenes/cart-4.png" alt="texto de la imagen">
+                        </figure>
+                        <h5 class="nombrep">500$ Certificate</h5>
+                        <h3 class="precio">$450.00</h3>
+                        <a href="#" class="btn-rosa">ADD TO CART</a>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="advantages ancho">
+        <div class="ad-inf">
+            <h4 class="subtitulo">Why Us</h4>
+            <h3 class="titulo">Our Avantages</h3>
+            <p class="par1">As the most renowned beauty salon, we concentrate on you, and create your style the way you want it.</p>
+            <p class="par2">
+                Whether you want a new look for that special occasion or you are ready for a complete rejuvenation, Beauty Salon is simply the best place for total body care. We listen to you. Our goal is to provide unparalleled customer service, guaranteeing the best experience.
+            </p>
+            <p class="par2">Our customers like our cuts, hair styling, facials, nail service and our experienced technicians can soothe the nerves of even the most anxious first-time clients. If you are looking for a hair salon, look no further. No matter what the challenge might be, we are up to the task.</p>
+            
+            <div class="botones">
+                <a href="#" class="btn2-rosa">LEARN MORE</a>
+                <a href="#" class="btn-gris">VIEW ALL TEAM MEMBERS</a>
+            </div>
+        </div>
+        <div id="carousel">
+            <div id="slide-container">
+                <article class="slide info-car" data-slideIndex="0">
+                    <figure>
+                        <img src="imagenes/member1.jpg" alt="texto de la imagen">
+                    </figure>
+                    <h3 class="nombret">Jessica Cooper</h3>
+                    <h5 class="ocupa">Esthetician</h5>
+                    <div class="redes">
+                        <i class='fa-brands fa-facebook'></i>
+                        <i class='fa-brands fa-twitter'></i>
+                        <i class="fa-brands fa-google"></i>
+                    </div>
+                    <a href="#" class="btn-am">GET IN TOUCH</a>
+                </article>
+                <article class="slide info-car" data-slideIndex="1">
+                    <figure>
+                        <img src="imagenes/member2.jpg" alt="texto de la imagen">
+                    </figure>
+                    <h3 class="nombret">Robert Wagner</h3>
+                    <h5 class="ocupa">Hairdresser</h5>
+                    <div class="redes">
+                        <i class='fa-brands fa-facebook'></i>
+                        <i class='fa-brands fa-twitter'></i>
+                        <i class="fa-brands fa-google"></i>
+                    </div>
+                    <a href="#" class="btn-am">GET IN TOUCH</a>
+                </article>
+                <article class="slide info-car" data-slideIndex="2">
+                    <figure>
+                        <img src="imagenes/member3.jpg" alt="texto de la imagen">
+                    </figure>
+                    <h3 class="nombret">Judy Bailey</h3>
+                    <h5 class="ocupa">Manicurist</h5>
+                    <div class="redes">
+                        <i class='fa-brands fa-facebook'></i>
+                        <i class='fa-brands fa-twitter'></i>
+                        <i class="fa-brands fa-google"></i>
+                    </div>
+                    <a href="#" class="btn-am">GET IN TOUCH</a>
+                </article>
+                <article class="slide info-car" data-slideIndex="3">
+                    <figure>
+                        <img src="imagenes/member4.jpg" alt="texto de la imagen">
+                    </figure>
+                    <h3 class="nombret">Angela Santos</h3>
+                    <h5 class="ocupa">Masseur</h5>
+                    <div class="redes">
+                        <i class='fa-brands fa-facebook'></i>
+                        <i class='fa-brands fa-twitter'></i>
+                        <i class="fa-brands fa-google"></i>
+                    </div>
+                    <a href="#" class="btn-am">GET IN TOUCH</a>
+                </article>
+                <article class="slide info-car" data-slideIndex="4">
+                    <figure>
+                        <img src="imagenes/member5.jpg" alt="texto de la imagen">
+                    </figure>
+                    <h3 class="nombret">Gregory Carlson</h3>
+                    <h5 class="ocupa">PR-manager</h5>
+                    <div class="redes">
+                        <i class='fa-brands fa-facebook'></i>
+                        <i class='fa-brands fa-twitter'></i>
+                        <i class="fa-brands fa-google"></i>
+                    </div>
+                    <a href="#" class="btn-am">GET IN TOUCH</a>
+                </article>
+                <article class="slide info-car" data-slideIndex="5">
+                    <figure>
+                        <img src="imagenes/member1.jpg" alt="texto de la imagen">
+                    </figure>
+                    <h3 class="nombret">Jessica Cooper</h3>
+                    <h5 class="ocupa">Esthetician</h5>
+                    <div class="redes">
+                        <i class='fa-brands fa-facebook'></i>
+                        <i class='fa-brands fa-twitter'></i>
+                        <i class="fa-brands fa-google"></i>
+                    </div>
+                    <a href="#" class="btn-am">GET IN TOUCH</a>
+                </article>
+            </div>
+            <br>
+            <div class="slide-buttons">
+                <button href="#" id="back-button"><i class="fa-solid fa-chevron-left"></i></button>
+                <button href="#" id="forward-button"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+    <section class="news ancho" id="news">
+        <div class="tit-acor">
+            <h2 class="titulo">News & Tips</h2>
+            <h4 class="par2">Read the latest spa news and useful tips written by our therapists and estheticians</h4>
+
+        </div>
+                <div class="acor">
+            <div class="acordeon-titulo ancho">
+                <h3>New 1</h3>
+                <i class="fa-solid fa-circle-down"></i>
+            </div>
+            <article class="acordeon-contenido ancho">
+                <figure>
+                    <img src="imagenes/new1.jpg" alt="texto de la imagen">
+                </figure>
+                <h2 class="tit-new">Beauty Salon Facials</h2>
+                <div class="info-new">
+                    <h3 class="fecha">2 days ago</h3>
+                    <h3 class="by">by</h3>
+                    <h3 class="autor">Benjamin Armstrong</h3>
+                </div>
+                <p class="text">People get facials for different reasons: some people want those horrible blackheads out! Others start taking care of their skin in their 20s to preserve a youthful look. Older people want some help with anti-again regimens...</p>
+                <a href="#" class="btn-new">Facials</a>
+            </article>
+            <div class="acordeon-titulo ancho">
+                <h3>New 2</h3>
+                <i class="fa-solid fa-circle-down"></i>
+            </div>
+            <article class="acordeon-contenido ancho">
+                <figure>
+                    <img src="imagenes/new2.jpg" alt="texto de la imagen">
+                </figure>
+                <h2 class="tit-new">Beauty & Hair Styling Trends of 2016</h2>
+                <div class="info-new">
+                    <h3 class="fecha">2 days ago</h3>
+                    <h3 class="by">by</h3>
+                    <h3 class="autor">Emma Armstrong</h3>
+                </div>
+                <p class="text">Autumn/winter 2016's fashion shows offered a welcome beauty refresh for the new season - as well as a renewed celebration of individuality in hair and make-up. Discover the full list of the most popular trends you need to...</p>
+                <a href="#" class="btn-new">Events</a>
+            </article>
+            <div class="acordeon-titulo ancho">
+                <h3>New 3</h3>
+                <i class="fa-solid fa-circle-down"></i>
+            </div>
+            <article class="acordeon-contenido ancho">
+                <figure>
+                    <img src="imagenes/galeria2.jpg" alt="texto de la imagen">
+                </figure>
+                <h2 class="tit-new">How to Achieve the ´no Make up´ Make-up Look With Menimal Effort</h2>
+                <div class="info-new">
+                    <h3 class="fecha">2 days ago</h3>
+                    <h3 class="by">by</h3>
+                    <h3 class="autor">Angela Santos</h3>
+                </div>
+                <p class="text">The beauty world is full of confusing phrases, but none more so than 'no make-up make-up’. It’s bandied around (particularly during Fashion Weeks), referring to a natural, barefaced look – no colour on the lips or eyes...</p>
+                <a href="#" class="btn-new">Article</a>
+            </article>
+        </div>
+    </section>
+    <footer>
+        <div class="footer ancho">
+            <h5 class="reser"> © 2024 All Rights Reserved Terms of Use and Privacy Policy</h5>
+        <div class="nombre">
+            <figure>
+                <img src="imagenes/logo.png" alt="texto de la imagen">
+            </figure>
+            <div class="titu">
+                <h1>beautysalon</h1>
+                <h4>and healt care website</h4>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <script>
+        //menu
+        $("#movil").click(function () {
+            $("#menu").toggleClass('abrir_menu');
+        });
+
+        $(document).ready(function () {
+            $("#movil").click(function (event) {
+                event.stopPropagation(); // Evita que el clic en el botón cierre el menú
+                $("#menu").addClass("abrir_menu");
+            });
+
+            $(document).click(function () {
+                $("#menu").removeClass("abrir_menu"); // Cierra el menú si se hace clic fuera de él
+            });
+
+            $("#menu").click(function (event) {
+                event.stopPropagation(); // Evita que los clics dentro del menú lo cierren
+            });
+        });
+        //funcion de slide
+        $(".rslides").responsiveSlides({
+            auto: true,
+            pager: false,
+            nav: true,
+            speed: 1500,
+            namespace: "callbacks",
+        });
+          //tabs
+        $(".tab-content").hide();//oculta el conenido
+        $("ul.tabs li:first").addClass("active").show();//activa el css del primer tab
+        $(".tab-content:first").show();//muestra el contenido del primer tab
+        //eveto click al boton
+        $("ul.tabs li").click(function(){
+            $("ul.tabs li").removeClass("active");//quita la clase active
+            $(this).addClass("active");//agrega la clase active al tab seleccionado
+            $(".tab-content").hide();//oculta el contenido de las pestañas
+            
+            var activeTab = $(this).find("a").attr("href");
+            $(activeTab).fadeIn();//aparece el contenedor activo
+            return false;
+        });
+        //galeria de fotos
+        Fancybox.bind('[data-fancybox="gallery"]', {
+            
+        });
+        //acordeon
+        $(".acordeon-titulo").click(function(){
+            var t= $(this);
+            var tp= t.next();
+            tp.slideToggle();
+        });
+        //modal
+        $("#boton_modal").click(function () {
+            $("#modal").addClass("mostrar");
+          })
+      
+          $("#cerrar_modal").click(function () {
+            $("#modal").removeClass("mostrar");
+          })
+      
+      
+          // click por fuera
+          window.onclick = function (event) {
+            if (event.target == modal) {
+              $("#modal").removeClass("mostrar");
+            }
+          };
+      
+          // click tecla ESC
+          document.addEventListener('keydown', function (event) {
+            if (event.key === 'Escape') {
+              $("#modal").removeClass("mostrar");
+            }
+          });
+
+    </script>
+    <script src="carrousel.js"></script>
+</body>
+</html>

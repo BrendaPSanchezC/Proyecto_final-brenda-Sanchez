@@ -1,0 +1,45 @@
+@media screen and (max-width:430px){
+    .logos figure{
+        width: 17%;
+        margin: 0;
+        padding: 0;
+      }
+      .logos figure img{
+        width: 50px;
+      }
+    .let{
+        font-size: 2.5rem;
+    }
+    .the{
+        font-size: 1.5rem !important;
+    }
+    .parr{
+        display: none;
+    }
+    .services{
+        grid-template: 1fr 1fr 1fr 1fr/ 1fr;
+    }
+    .videos-instalaciones{
+        max-width: 30% !important;
+    }
+    .video iframe{
+        width: 100%;
+        height: 100%;
+    }
+    .our{
+        max-width: 100%;
+        clip-path: polygon(0% 0%, 100% 0, 100% 50%, 100% 100%, 0% 100%);
+    }
+    /*galeria de fotos*/
+    .contenedor_fotos{
+        grid-template: 1fr 1fr 1fr 1fr 1fr 1fr/ 1fr;
+    }
+    .ad-inf{
+        margin: 0;
+        max-width: 100%;
+        padding: 20px;
+    }
+    .reser{
+        text-align: center;
+    }
+}   

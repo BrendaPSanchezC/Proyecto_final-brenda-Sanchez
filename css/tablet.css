@@ -1,0 +1,114 @@
+@media screen and (max-width:768px){
+    :root{
+        --primario:#E77A66;
+    }
+    header{
+        position: relative;
+    }
+    #menu{
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: -120%;
+        z-index: 100;
+        background-color: white;
+        padding: 20px;
+        gap: 10px;
+        height: 900px;
+        transition: left 0.5s ease;
+
+    }
+    
+    #menu.abrir_menu{
+        left:0;
+    }
+    .home{
+        background-color: var(--primario);
+    }
+    .home a{
+        color: #fff !important;
+    }
+    #menu li:hover{
+        background-color: var(--primario);
+    }
+    #menu a:hover{
+        color: #fff;
+    }
+    #movil{
+        display: flex;
+        justify-content: center;
+
+    }
+    .logo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo a{
+        font-size: 30px;
+        text-decoration: none;
+    }
+    .logos{
+        display: flex;
+        align-items: center;
+    }
+    .logos figure{
+        width: 13%;
+    }
+    .nom{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nombre{
+        padding-top: 0;
+    }
+    .subtit{
+        display: none;
+    }
+    .shop{
+        font-size: 20px;
+    }
+    .rslides img {
+        display: block;
+        max-width: 100%;
+        height: 700px;
+        object-fit: cover;
+    }
+    .let{
+        font-size: 4rem;
+    }
+    .the{
+        font-size: 2rem;
+        text-align: center;
+        line-height: 1;
+    }
+    .services{
+        grid-template: 1fr 1fr / 1fr 1fr;
+    }
+    .about{
+        flex-direction: column;
+    }
+    .contenedor_fotos{
+        grid-template: 1fr 1fr 1fr / 1fr 1fr;
+    }
+    .advantages{
+        flex-direction: column;
+    }
+    .ad-inf{
+        margin: 0;
+        max-width: 100%;
+        padding: 70px;
+    }
+    .news{
+        padding: 20px;
+    }
+    .footer{
+        justify-content: center;
+        flex-direction: column-reverse;
+        padding-top: 50px;
+    }
+    .reser{
+        padding-top: 50px;
+    }
+}
