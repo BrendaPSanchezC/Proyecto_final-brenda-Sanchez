@@ -1,6 +1,7 @@
 @media screen and (max-width:768px){
     :root{
         --primario:#E77A66;
+        --titulos:#45484D;
     }
     header{
         position: relative;
@@ -41,8 +42,29 @@
     #movil{
         display: flex;
         justify-content: center;
+        animation-name: color;
+        animation-duration: 5s;
 
     }
+    /*animacion del color*/
+    @keyframes color{
+        0%{
+            color: var(--titulos);
+        }
+        25%{
+            color: var(--primario);
+        }
+        50%{
+            color:var(--titulos);
+        }
+        75%{
+            color: var(--primario);
+        }
+        100%{
+            color: var(--titulos);
+        }
+    }
+    
     .logo{
         display: flex;
         justify-content: space-between;
