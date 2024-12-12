@@ -1,4 +1,12 @@
 @media screen and (max-width:430px){
+    header{
+        width: 100%;
+        padding: 10px;
+        justify-content: space-between;
+    }
+    #menu{
+        margin-right-right: 20px;
+    }
     .logos figure{
         width: 17%;
         margin: 0;
@@ -6,6 +14,9 @@
       }
       .logos figure img{
         width: 50px;
+      }
+      .nombre{
+        width: auto;
       }
     .let{
         font-size: 2.5rem;

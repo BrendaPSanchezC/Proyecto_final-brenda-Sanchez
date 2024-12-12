@@ -10,9 +10,9 @@
         position: absolute;
         top: 100%;
         left: -120%;
-        z-index: 100;
+        z-index: 2000;
         background-color: white;
-        padding: 20px;
+        padding: 0;
         gap: 10px;
         height: 900px;
         transition: left 0.5s ease;
@@ -27,6 +27,10 @@
     }
     .home a{
         color: #fff !important;
+    }
+    #menu a{
+        width: 100%;
+        margin: 10px;
     }
     #menu li:hover{
         background-color: var(--primario);
